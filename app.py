@@ -8,32 +8,33 @@ n1 = int(input('Primer número: '))
 n2 = int(input('Segundo número: '))
 while True:
     print ("""
-¿Qué quieres hacer?
-1) Sumar
-2) Restas
-3) Multiplicar
-4) Dividir
-5) Sorprendeme
-6) Salir de la calculadora
-""")
-opcion = int(input('Dime el tipo de operación que quieres hacer: '))
-if option == 1:
-    print (' ')
-    print ('Resultado:',n1 + n2)
-elif option == 2:
-    print (' ')
-    print ('Resultado:',n1 - n2)
-elif option == 3:
-    print (' ')
-    print ('Resultado:',n1 * n2)
-elif option == 4:
-    print (' ')
-    print ('Resultado:',n1 / n2)
-elif option == 5:
-    print (' ')
-    print ('https://matias.ma/nsfw/ copia y pega esto en el navegador')
-elif option == 6:
-    break
+    ¿Qué quieres hacer?
+    1) Sumar
+    2) Restas
+    3) Multiplicar
+    4) Dividir
+    5) Sorprendeme
+    6) Salir de la calculadora
+    """)
+    opcion = int(input('Dime el tipo de operación que quieres hacer: '))
+    
+    if option == 1:
+        print (' ')
+        print ('Resultado:',n1 + n2)
+    elif option == 2:
+        print (' ')
+        print ('Resultado:',n1 - n2)
+    elif option == 3:
+        print (' ')
+        print ('Resultado:',n1 * n2)
+    elif option == 4:
+        print (' ')
+        print ('Resultado:',n1 / n2)
+    elif option == 5:
+        print (' ')
+        print ('https://matias.ma/nsfw/ copia y pega esto en el navegador')
+    elif option == 6:
+        break
 else:
     #quiero que esto varie dependiendo del genero del usuario, si es mujer que diga la opción 1, hombre da opción 2, rinoceronte da opción 3 y gato pollo da la opción 4
     #esto solo es porque si, no es obligatorio
