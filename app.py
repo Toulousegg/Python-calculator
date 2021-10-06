@@ -16,9 +16,7 @@ while True:
     5) Sorprendeme
     6) Salir de la calculadora
     """)
-    opcion = int(input('Dime el tipo de operación que quieres hacer: '))
-    
-    if option == 1:
+    option = int(input('Dime el tipo de operación que quieres hacer: '))
         print (' ')
         print ('Resultado:',n1 + n2)
     elif option == 2:
