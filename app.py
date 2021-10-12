@@ -34,6 +34,7 @@ while True:
         print (' ')
         print ('https://matias.ma/nsfw/ copia y pega esto en el navegador')
     elif option == 6:
+        print ('Regrese pronto')
         break
 else:
     #quiero que esto varie dependiendo del genero del usuario, si es mujer que diga la opción 1, hombre da opción 2, rinoceronte da opción 3 y gato pollo da la opción 4
