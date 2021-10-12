@@ -17,6 +17,8 @@ while True:
     6) Salir de la calculadora
     """)
     option = int(input('Dime el tipo de operación que quieres hacer: '))
+    
+    if option == 1:
         print (' ')
         print ('Resultado:',n1 + n2)
     elif option == 2:
